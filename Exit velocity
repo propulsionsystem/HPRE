@@ -1,0 +1,14 @@
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print("Hello, my name is", self.name)
+
+# Create an instance of the class
+obj = MyClass("Alice")
+
+# Call the greet method
+obj.greet()
+
+
